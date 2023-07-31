@@ -124,7 +124,7 @@ elif input_user == '3': #OPSI 2
 
     try:
         def phoneGW():
-            User_phone = input(f"\n {Wh}Enter phone number target {Gr}Ex [+6281xxxxxxxxx] {Wh}: {Gr}") #INPUT NUMBER PHONE
+            User_phone = input(f"\n {Wh}Enter phone number target {Gr}Ex [+964xxxxxxxxx] {Wh}: {Gr}") #INPUT NUMBER PHONE
             default_region = "ID" #DEFAULT NEGARA INDONESIA
 
             parsed_number = phonenumbers.parse(User_phone, default_region) # VARIABLE PHONENUMBERS
